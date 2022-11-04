@@ -3,7 +3,10 @@ import java.util.Scanner;
 abstract class Career {
 
     public void execute() {
-        // write your code here ...
+        dream();
+        plan();
+        study();
+        work();
     }
 
     // write your code here ...
@@ -20,14 +23,22 @@ abstract class Career {
     public void study() {
         System.out.println("Study!");
     }
+
+    public abstract void work();
 }
 
-class Engineer {
-   // write your code here ...
+class Engineer extends Career {
+    @Override
+    public void work() {
+        System.out.println("Work as a Full Stack Engineer");
+    }
 }
 
-class DataScientist {
-   // write your code here ...
+class DataScientist extends Career {
+    @Override
+    public void work() {
+        System.out.println("Work as a Data Scientist");
+    }
 }
 
 // Do not change the code below
