@@ -1,0 +1,10 @@
+content:
+- Theory
+- The magic of RUNNABLE state
+- How to jump to the TIMED_WAITING state
+- Finding and starting a thread
+- Runnable state
+- The current state of a thread
+- Print name of TERMINATED thread
+- A thread in NEW state
+- What is a thread status
